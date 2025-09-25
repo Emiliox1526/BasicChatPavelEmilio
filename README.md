@@ -1,16 +1,55 @@
-# basic_chat_emilio_pavel
+# Basic Chat Emilio Pavel
 
-A new Flutter project.
+Aplicación de chat desarrollada en **Flutter** con integración de **Firebase**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Requisitos previos
 
-A few resources to get you started if this is your first Flutter project:
+Antes de empezar, asegúrate de tener instalado:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (versión estable más reciente)  
+- [Dart SDK](https://dart.dev/get-dart) (incluido en Flutter)  
+- [Firebase CLI](https://firebase.google.com/docs/cli)  
+- Android Studio o Visual Studio Code con los plugins de Flutter y Dart  
+- Un emulador Android o un dispositivo físico conectado  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📦 Instalación
+
+1. **Clonar el repositorio**
+
+   git clone https://github.com/Emiliox1526/basic_chat_emilio_pavel.git
+   cd basic_chat_emilio_pavel
+Instalar dependencias
+
+bash
+Copiar código
+flutter pub get
+Configurar Firebase
+
+Descarga el archivo google-services.json desde la consola de Firebase
+
+Colócalo en:
+
+bash
+Copiar código
+android/app/google-services.json
+⚠️ Este archivo no está incluido en el repositorio por seguridad.
+
+Generar configuraciones de Firebase con FlutterFire
+
+bash
+Copiar código
+flutterfire configure
+Esto genera el archivo lib/firebase_options.dart.
+
+▶️ Ejecución
+Asegúrate de que un emulador esté corriendo o conecta tu dispositivo.
+
+Lanza la app en modo debug:
+
+bash
+Copiar código
+flutter run
