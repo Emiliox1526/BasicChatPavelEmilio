@@ -24,8 +24,7 @@ Antes de empezar, asegúrate de tener instalado:
    cd basic_chat_emilio_pavel
 Instalar dependencias
 
-bash
-Copiar código
+
 flutter pub get
 Configurar Firebase
 
@@ -33,15 +32,13 @@ Descarga el archivo google-services.json desde la consola de Firebase
 
 Colócalo en:
 
-bash
-Copiar código
+
 android/app/google-services.json
 ⚠️ Este archivo no está incluido en el repositorio por seguridad.
 
 Generar configuraciones de Firebase con FlutterFire
 
-bash
-Copiar código
+
 flutterfire configure
 Esto genera el archivo lib/firebase_options.dart.
 
@@ -51,5 +48,5 @@ Asegúrate de que un emulador esté corriendo o conecta tu dispositivo.
 Lanza la app en modo debug:
 
 bash
-Copiar código
+
 flutter run
